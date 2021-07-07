@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".com.answersystem.lr.home.home">
+        <activity android:name=".com.answersystem.lr.bbs.bbs">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".com.answersystem.lr.bbs.bbs" />
+        <activity android:name=".com.answersystem.lr.home.home" />
         <activity android:name=".com.answersystem.lr.log_in.log_in" />
         <activity android:name=".com.answersystem.lr.problem.problem"></activity>
     </application>
